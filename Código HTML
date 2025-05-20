@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Meu Site</title>
+
+    </head>
+
+    <body>
+    <h1>Vitor Dias da Silva</h1>
+    <p>Me chamo Vitor Dias da Silva, tenho 22 anos de idade, sou natural de Curitiba-PR e atualmente moro em Colombo-PR, e sou apaixonado por carros, principalmente carros antigos, e também, gosto muito de música.</p>
+
+<button id="botao"> Clique para ver uma mensagem!</button>
+    
+<h3>Hobbies:</h3>
+    <ul>
+        <li>Musculação</li>
+        <li>Mecânica</li>
+        <li>Jogar</li>
+        <img src="Mecanica.jpg" width="250">
+    </ul>
+
+<h3>Países que gostaria de visitar:</h3>
+
+<table border="10">
+    
+    <tr>
+          <th>Japão</th>
+          <td><img src="Tokyo.jpg" width="200%"></td>
+    </tr>
+    <tr>
+          <th>Russia</th>
+          <td><img src="Moscow.jpg" width="200%"></td>
+    </tr>
+    <tr>
+         <th>Estados Unidos</th>
+         <td><img src="Nova York.jpeg" width="200%"></td>
+    </tr>
+
+</table>
+
+<h3>Site de Interesse:</h3>
+<a href="https://www.youtube.com/">Youtube</a>
+
+  </body> 
+  
+<link rel="stylesheet" href="estilo.css">
+
+
+</html>

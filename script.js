@@ -1,16 +1,16 @@
-
-const botao = document.getElementById('botao');
-    const mensagemDiv = document.createElement('div');
-    mensagemDiv.id = 'mensagem-motivacional';
+document.addEventListener('DOMContentLoaded', function() {
+    const messageButton = document.getElementById('messageButton');
+    const messageContainer = document.getElementById('messageContainer');
     
-    botao.insertAdjacentElement('afterend', mensagemDiv);
+    const messages = [
 
-    const mensagens = [
-        "O sucesso começa com a vontade de tentar.",
+        "Cada dia é uma nova oportunidade para aprender e crescer.",
     ];
-
-    botao.addEventListener('click', function() {
+    
+    messageButton.addEventListener('click', function() {
+        const randomMessage = messages[Math.floor(Math.random() * messages.length)];
+        messageContainer.textContent = randomMessage;
+        messageContainer.style.display = 'block';
         
-        mensagemDiv.textContent = mensagemDiv;
-        mensagemDiv.style.display = 'block';
-    })
+    });
+});
